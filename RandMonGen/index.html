@@ -1,0 +1,80 @@
+<!-- All images used were taken from Pixabay -->
+<!DOCTYPE html>
+<link rel="shortcut icon" type="image" href="images/favicon.png"/>
+<html>
+	<head>
+		<title>5E Random Monster Generator</title>
+		<link rel="stylesheet" href="css/style.css"></style>
+	</head>
+	
+	<body>
+		<div id="banner">
+			<h1 id="toolName"><a href="index.html">5E Random Monster Generator</a></h1>
+		</div>
+
+		<div id="introMenuContainer">
+			<p id="introTxt">Have you found yourself unprepared for an upcoming session? Maybe your aspiring heroes have gone way off-course, unaware of the danger that lurks ahead. 
+			Or perhaps you need some inspiration to create something new and unique. Whatever ails you, fear not, for the 5E Random Monster Generator is here to save the day! 
+			Just select a Challenge Rating, click <b>Generate</b>, and a random monster will appear at your fingertips.</p>
+			<div class="challengeMenu">
+				<h2 id="crTitle">Challenge Rating</h2>
+				<form class ="challengeRatings">
+					<label><input type="radio" id="1/8" name="challengeRating" value="1/8">CR 1/8</label><br>
+					<label><input type="radio" id="1/4" name="challengeRating" value="1/4">CR 1/4</label><br>
+					<label><input type="radio" id="1/2" name="challengeRating" value="1/2">CR 1/2</label><br>
+					<label><input type="radio" id="1" name="challengeRating" value="1">CR 1</label><br>
+					<label><input type="radio" id="2" name="challengeRating" value="2">CR 2</label>
+				</form>
+			</div>
+		</div>	
+
+		<div id="buttonContainer">
+			<button type="submit" formmethod="post" class="button" id="generateButton">Generate</button>
+		</div>
+
+		<div class ="monStats" id="statBlock">
+			<h2 class="monStats" id="monName">Random Monster</h2>
+			<p class="monStats" id="monSize">Size type, unaligned</p>
+			<hr>
+			<p id="monAC">Armor Class AC</p>
+			<p id="hitPoints">Hit Points XX(XdX + X)</p>
+			<p id="monSpeed">Speed XX ft</p>
+			<hr>
+			<ul class="abilityScoreHeaders">
+				<li><b>STR</b> </li>
+				<li><b>DEX</b></li>
+				<li><b>CON</b></li>
+				<li><b>INT</b></li>
+				<li><b>WIS</b></li>
+				<li><b>CHA</b></li>
+			</ul>
+			<ul class="abilityScores">
+				<li id ="strScore">XX (+X)</li>
+				<li id ="dexScore">XX (+X)</li>
+				<li id ="conScore">XX (+X)</li>
+				<li id ="intScore">XX (+X)</li>
+				<li id ="wisScore">XX (+X)</li>
+				<li id ="chaScore">XX (+X)</li>
+			</ul>
+			<hr>
+			<p id="monSkills"></p>
+			<p id="monResistances"></p>
+			<p id="monDamageImmunities"></p>
+			<p id="conditionImmunities"></p>
+			<p id="monSenses"></p>
+			<p><b>Languages —</b></p>
+			<p id="challengeRatingText"></p>
+			<hr id="abilityHR" >
+			<p id="monAbility1"></p>
+			<p id="monAbility2"></p>
+			<h3 class="monStats">Actions</h3>
+			<hr>
+			<p id="atkMulti"></p>
+			<p id="monAtk1">Attack. Attack type: +X to hit, reach X ft., one target. Hit: X (XdX + X) type damage.</p>
+			<p id="monAtk2"></p>
+		</div>
+		<br>
+		<p id="legal">All content used is material found within the SRD. See the Open Game License <a href="ogl.html"><b>here</b></a>.</p>
+		<script src="js/client.js"></script>
+	</body>
+</html>

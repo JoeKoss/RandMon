@@ -1,0 +1,173 @@
+html *{
+	font-family: Arial, Helvetica, sans-serif;
+}
+html{
+	background-image: url('../images/grid.png');
+	background-color: #bbb088;
+	min-height:100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+button{
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 4px;
+	background-color: #eaedcc;
+}
+button:hover{
+	background-color:#ababab;
+}
+button:active{
+	transform: translateY(2px);
+}
+div.monStats{
+	font-size: 15px;
+	display:none;
+	margin:auto;
+	width:30%;
+	min-width: 565px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #fdf1dc;
+	border-style: solid none solid none	;
+	border-width: 5px;
+	border-top-color: orange;
+	border-bottom-color: orange;
+	border-left-color: black;
+	box-shadow: 2px 2px 8px 2px #474747;
+}
+h2.monStats{
+	color: #5a190f;
+	font-weight: bold;
+	margin-top: 5px;
+}
+h3.monStats{
+	margin-top: 5px;
+	margin-bottom: -5px;
+	color: #5a190f;
+}
+p.monStats{
+	margin-top: -20px;
+	margin-bottom: 0px;
+}
+hr{
+	border-top: 3px solid #922610;
+}
+div.challengeMenu h2{
+	text-align: center;
+	margin-bottom: 0px;
+}
+div.challengeMenu{
+	width:220px;
+	margin:auto;
+}
+form.challengeRatings{
+	font-size: 20px;
+	display: inline-block;
+	width: 220px;
+	padding: 15px 3px;
+}
+ul.abilityScoreHeaders li{
+	list-style-type: none;
+	display: inline-block;
+	width: 15.5%;
+	color: #5a190f;
+}
+ul.abilityScores li{
+	list-style-type: none;
+	display: inline-block;
+	width: 15.5%;
+}
+a:link{
+	text-decoration:none;
+	color:black;
+}
+a:visited{
+	text-decoration:none;
+	color:black;
+}
+a:hover{
+	color:#922610;
+}
+#banner{
+	margin:auto;
+	width:670px;
+	height: 150px;
+	background-image: url('../images/banner.png');
+	background-position:center;
+	background-repeat:no-repeat;
+}
+#toolName{
+	padding-top:60px;
+	padding-left: 10px;
+	text-align: center;
+	font-size: 32px;
+}
+#introMenuContainer{
+	margin:auto;
+	width:50%;
+	min-width:500px;
+	border-radius: 55px	;
+	background-image: url('../images/textbg.png');
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#introTxt{
+	padding-left: 20px;
+	padding-right:15px;
+	padding-top: 10px;
+	text-indent:40px;
+	font-size: 19px;
+	word-spacing: 2px;
+}
+#buttonContainer{
+	text-align: center;
+	margin-top:5px;
+	margin-bottom: 20px;
+}
+#abilityHR{
+	display:none;
+}
+#legal{
+	margin:auto;
+	text-align:center;
+	padding-top:5px;
+	padding-bottom:5px;
+	width:35%;
+	min-width:500px;
+	border-radius: 55px	;
+	background-image: url('../images/textbg.png');
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#legalContainer{
+	margin:auto;
+	width:50%;
+	min-width:500px;
+	border-radius: 55px	;
+	background-image: url('../images/textbg.png');
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#legalHeader{
+	text-align:center;
+	padding-top:10px;
+}
+#legalText{
+	padding-left: 20px;
+	padding-right:15px;
+	font-size: 19px;
+	word-spacing: 2px;
+	padding-bottom:30px;
+}
